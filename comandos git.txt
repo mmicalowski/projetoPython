@@ -63,3 +63,9 @@ git commit -m "Comentario do Commit"
 git push
 #envia os arquivos para o git
 
+git init
+#cria um repositorio local
+
+git add nome do arquivo.extensão
+#adiciona somente o arquivo selecionado
+
