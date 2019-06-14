@@ -1,0 +1,62 @@
+comandos git
+
+git version
+#verifica a versão do git instalado
+
+git config --global user.name "Seu nome"
+#configura o usuario
+
+git config --global user.email "Seu email"
+#configuta o email do usuario
+
+clear
+#limpa a tela
+
+git config user.name
+#verifica o usuario atual
+
+git config user.email
+#verifica o email atual
+
+git config core.editor
+#verifica o editor configurado para ser utilizado
+
+git config --core.editor "Caminho do outro editor"
+#configura outro editor padrão
+
+pwd
+#exibe o caminho da pasta atual
+
+cd /nome da pasta
+#altera o caminho da pasta atual
+
+mkdir /nome da pasta
+#cria uma pasta no diretorio atual
+
+ls
+#lista os arquivos e pastas da pasta atual
+
+cd /c
+#muda do diretorio atual para o c:
+
+touch nome do arquivo.extenção
+#cria um arquivo no diretorio atual
+
+touch nome da pasta/nome do arquivo.extenção
+#cria um arquivo na pasta chamada
+
+git clone link do repositorio
+#cria uma copia dos arquivos do repositorio em uma pasta local
+
+ls -a
+#exibe todos arquivos o -a mostra tambem os arquivos ocultos
+
+git status
+#mostra as modificações dos arquivos
+
+git add *
+#coloca os arquivos modificados em espera de commit
+
+git commit -m "Comentario do Commit"
+#commit dos arquivos e pastas criados
+
