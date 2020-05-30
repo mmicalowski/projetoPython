@@ -1,2 +1,3 @@
-nome = input("Digite seu nome:").upper()
-print(f'Olá {nome} tudo bem com você?')
+nome_pc = str(input("Digite seu nome:")).upper()
+menor = 'S'
+print(f'Olá {nome_pc} tudo bem com você?')
